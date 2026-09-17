@@ -1,0 +1,130 @@
+/* ตั้งค่าพื้นฐาน */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  }
+
+body {
+font-family: Arial, sans-serif;
+background: #f8f9ff;
+color: #333;
+line-height: 1.7;
+}
+
+/* เมนูด้านบน */
+header {
+background: linear-gradient(90deg, #6c63ff, #8e7dff);
+position: sticky;
+top: 0;
+z-index: 1000;
+box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+nav {
+max-width: 1100px;
+margin: auto;
+padding: 15px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo {
+color: white;
+font-size: 24px;
+font-weight: bold;
+}
+
+nav ul {
+display: flex;
+list-style: none;
+gap: 8px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+padding: 8px 12px;
+border-radius: 20px;
+transition: 0.3s;
+}
+
+nav ul li a:hover {
+background: white;
+color: #6c63ff;
+}
+
+/* หน้าแรก */
+.hero {
+min-height: 550px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 40px 20px;
+background: linear-gradient(135deg, #dfe7ff, #f6e8ff);
+}
+
+.hero-text {
+max-width: 750px;
+}
+
+.hero-text p:first-child {
+color: #6c63ff;
+font-weight: bold;
+}
+
+.hero h1 {
+font-size: 55px;
+color: #4d4b8c;
+margin: 10px 0;
+}
+
+.hero h2 {
+font-size: 28px;
+color: #444;
+}
+
+.hero h2 span {
+color: #6c63ff;
+}
+
+.hero-text p {
+margin: 15px 0;
+}
+
+/* ปุ่ม */
+.btn {
+display: inline-block;
+margin-top: 15px;
+padding: 12px 25px;
+background: #6c63ff;
+color: white;
+text-decoration: none;
+border-radius: 25px;
+transition: 0.3s;
+box-shadow: 0 5px 12px rgba(108, 99, 255, 0.3);
+}
+
+.btn:hover {
+background: #554de0;
+transform: translateY(-3px);
+}
+
+/* Section */
+.section {
+max-width: 1100px;
+margin: auto;
+padding: 70px 20px;
+}
+
+.gray {
+max-width: none;
+background: #f0f1ff;
+}
+
+.title {
+text-align: cent
